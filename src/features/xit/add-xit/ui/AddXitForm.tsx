@@ -26,8 +26,8 @@ const AddXitForm = ({isOpen, onClose }: AddXitModaProps) => {
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-start justify-center p-4 z-50">
-            <div className="bg-white rounded-xl w-full max-w-md mt-20">
+        <div className="fixed inset-0 bg-black bg-opacity-70 flex items-end md:items-start justify-center p-4 z-50">
+            <div className="bg-white rounded-t-2xl md:rounded-xl w-full max-w-md md:mt-20">
                 <div className="p-4 border-b border-gray-200 flex justify-between items-center">
                     <h3 className="font-bold text-lg">Новый хит</h3>
                     <button
