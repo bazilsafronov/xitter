@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {createXit} from "../../../../entities/xit/model/slice"
 import {selectCurrentUser} from "../../../../entities/user";
 import {useNavigate} from "react-router-dom";
-
+import React from 'react';
 interface AddXitModaProps {
     isOpen: boolean;
     onClose: () => void;

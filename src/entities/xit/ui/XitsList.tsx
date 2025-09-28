@@ -1,6 +1,7 @@
 import {useSelector} from "react-redux";
 import {selectAllXits} from "../model/selectors";
 import XitCard from "./XitCard";
+import React from "react";
 
 
 export default function XitsList (){
