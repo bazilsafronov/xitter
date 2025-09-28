@@ -1,5 +1,5 @@
 import type {Xit} from "../model/types";
-import  {useState} from "react";
+import React, {useState} from "react";
 import {LikeButton} from "../../../features/xit/like-hit";
 import {FollowButton} from "../../../features/follow/user";
 import {useSelector} from "react-redux";

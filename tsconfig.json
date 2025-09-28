@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "types": ["node", "vite/client"],
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    }
+  }
+}

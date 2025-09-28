@@ -3,6 +3,7 @@ import {selectLikesByXitId, toggleLike} from "../model/slice";
 import {useState} from "react";
 import {selectIsAuthenticated} from "../../../../entities/user";
 import {ModalNotAuth} from "../../../../shared/ui/ModalNotAuth";
+import React from "react";
 
 interface LikeButtonProps {
     xitId: string;

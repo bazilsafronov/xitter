@@ -2,7 +2,7 @@ import {useSelector} from "react-redux";
 import {selectIsAuthenticated} from "../../entities/user";
 import {useEffect, useState} from "react";
 import {AuthForm} from "../../features/auth/ui/AuthForm";
-
+import React from 'react';
 
 export interface ModalNotAuthProps {
     isOpen: boolean;
